@@ -5,7 +5,6 @@ import click
 from tree import trie
 
 
-
 @click.command()
 @click.argument("file", type=click.File())
 def cli(file: io.TextIOBase) -> None:

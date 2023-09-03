@@ -1,5 +1,5 @@
-from collections.abc import Iterable
 import os
+from collections.abc import Iterable
 
 Node = dict[str, "Node"]
 
